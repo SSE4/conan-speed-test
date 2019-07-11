@@ -31,4 +31,4 @@ install:
   - echo "ok"
 
 script:
-  - ./run.sh $CONAN_VERSION
+  - travis_wait 40 ./run.sh $CONAN_VERSION
